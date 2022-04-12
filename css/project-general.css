@@ -1,0 +1,472 @@
+.content-before-cover,
+.content-after-cover {
+    margin: 0 19rem;
+}
+
+.project-content h1{
+    margin-top: 3.5rem;
+    margin-bottom: 0;
+}
+
+.project-description .project-types p {
+    margin-bottom: 2rem;
+    margin-top: 0.65rem;
+}
+
+.project-cover-img img {
+    /* position: absolute; */
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    /* margin: 2rem 0; */
+    /* background-size: cover; */
+}
+
+.brief-project-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.brief-project-info ul{
+    list-style: none;
+    padding: 0;
+    font-size: 1.10rem;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.brief-project-info h3{
+    margin-bottom: 0.5rem;
+}
+
+/* carousel */
+.carousel-container img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .carousel-container {
+    position: relative;
+    margin: 0 13rem;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 10px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: all 0.3s ease;
+  }
+  
+  .prev {
+    left: -10%;
+  }
+
+  .next {
+    right: -10%;
+  }
+  
+  .prev:hover,
+  .next:hover,
+  .prev:focus,
+  .next:focus {
+    background-color: black;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 20%;
+  }
+
+  .row {
+    margin-top: 0.5rem;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.3;
+    transition: all 0.3s ease;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  /* project details */
+  .project-section {
+    margin-top: 4rem;
+  }
+
+  .project-section h2{
+    margin-bottom: 1rem;
+  }
+
+  .project-details .project-section.part-highlight span {
+    background-color: #FFE4E4;
+    font-weight: normal;
+  }
+
+  .project-details .project-section.part-bold span{
+    font-weight: bold;
+  }
+
+  .project-details .bold-emphasize {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+
+  /* Poster Project */
+  .project-section img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  /* Color */
+.color-grid {
+  display: grid;
+  min-width: 0;
+  margin-bottom: 2.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+}
+
+.color-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.color-palette-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.color-item-info {
+  width: 100%;
+  padding: 1rem 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.color-item-info p,
+pre {
+  margin-top: 1rem;
+}
+
+.red {
+  background-color: #D12940;
+  color: white;
+}
+
+.black {
+  background-color: #272526;
+  color: white;
+}
+
+.white {
+  background-color: #FFFFFF;
+  /* border-color: black; */
+  border: solid 1px black;
+}
+
+.poster-sketch-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+}
+
+.poster-iteration {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+}
+
+.poster-iteration p{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.website-preview img{
+  width: 100%;
+}
+
+.website-preview a {
+  font-size: 1.10rem;
+  /* font-weight: bold; */
+  color: #FBE144;
+  background-color: #F54C2B;
+  border: 1px solid #F54C2B;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem 0.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.website-preview a:hover,
+.website-preview a:focus {
+  color: black;
+  background-color: #e3e0d7;
+  border: 1px solid black;
+}
+
+.typeface-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  column-gap: 6rem;
+  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+}
+
+.typeface-preview {
+  display: flex;
+  justify-content: center;
+}
+
+.design-concept h4 {
+  margin-bottom: 0;
+  font-size: 1.20rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.design-concept p {
+  margin-top: 0.25rem;
+}
+
+.urbanee-logo-color-palette {
+  display: grid;
+  grid-template-columns: 1fr 2.64fr;
+}
+
+/* Responsive */
+@media all and (max-width: 87.5rem) {
+  .carousel-container {
+    margin: 0 11rem;
+  }
+}
+
+@media all and (max-width: 81.25rem) {
+  .carousel-container {
+    margin: 0 10rem;
+  }
+}
+
+@media only screen and (max-width: 78.875rem){
+  .content-before-cover, 
+  .content-after-cover {
+    margin: 0 9rem;
+  }
+
+  .carousel-container {
+    margin: 0 17rem;
+  }
+}
+
+@media all and (max-width: 71.875rem) {
+  .carousel-container {
+    margin: 0 15rem;
+  }
+}
+
+@media all and (max-width: 68.75rem) {
+  .carousel-container {
+    margin: 0 13rem;
+  }
+}
+
+@media all and (max-width: 65.625rem) {
+  .carousel-container {
+    margin: 0 12rem;
+  }
+}
+
+@media all and (max-width: 62.5rem) {
+  .carousel-container {
+    margin: 0 11rem;
+  }
+}
+
+@media all and (max-width: 59.375rem) {
+  .carousel-container {
+    margin: 0 9rem;
+  }
+}
+
+@media only screen and (max-width: 59.0625rem){
+  .content-before-cover, 
+  .content-after-cover {
+    margin: 0 8rem;
+  }
+}
+
+@media all and (max-width: 56.25rem) {
+  .carousel-container {
+    margin: 0 8rem;
+  }
+}
+
+@media all and (max-width: 53.125rem) {
+  .content-before-cover, 
+  .content-after-cover {
+    margin: 0 7rem;
+  }
+
+  .carousel-container {
+    margin: 0 7rem;
+  }
+}
+
+@media all and (max-width: 50rem) {
+  .content-before-cover, 
+  .content-after-cover {
+    margin: 0 6rem;
+  }
+
+  .carousel-container {
+    margin: 0 6rem;
+  }
+}
+
+@media all and (max-width: 46.875rem) {
+  .carousel-container {
+    margin: 0 5rem;
+  }
+
+  .brief-project-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 43.75rem) {
+  .content-before-cover, 
+  .content-after-cover {
+    margin: 0 5rem;
+  }
+
+  .carousel-container {
+    margin: 0 4rem;
+  }
+}
+
+@media all and (max-width: 40.625rem) {
+  .content-before-cover, 
+  .content-after-cover {
+    margin: 0 4rem;
+  }
+
+  .project-content h1 {
+    margin-top: 3rem;
+  }
+
+  .urbanee-logo-color-palette {
+    grid-template-columns: 1fr;
+  }
+
+  .urbanee-logo {
+    width: 100%;
+  }
+
+  .typeface-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .typeface-grid {
+    row-gap: 1rem;
+  }
+}
+
+@media all and (max-width: 37.5rem) {
+  .content-before-cover, 
+  .content-after-cover {
+    margin: 0 3rem;
+  }
+
+  .carousel-container {
+    margin: 0 3rem;
+  }
+
+  .prev {
+    left: 0%;
+  }
+
+  .next {
+    right: -0%;
+  }
+}
+
+@media all and (max-width: 34.375rem) {
+  .content-before-cover, 
+  .content-after-cover {
+    margin: 0 2rem;
+  }
+
+  .carousel-container {
+    margin: 0.75rem;
+  }
+}
+
+@media all and (max-width: 25rem) {
+  .carousel-container {
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 44.375rem) {
+  .color-grid {
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+  }
+
+  .poster-sketch-grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+  }
+}
+
+@media all and (max-width: 32.5rem) {
+  .poster-iteration {
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+    margin: 0 1.5rem;
+  }
+}

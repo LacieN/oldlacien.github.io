@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/svg" href="img/personal-logo.svg" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/nav-bar.css" />
+    <link rel="stylesheet" href="css/homepage.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/bf386900a0.js" crossorigin="anonymous"></script>
+    
+    <title>Lacie Nguyen</title>
+    
+  </head>
+
+  <body>
+    
+    <section class="menu-wrapper">
+      <header class="header">
+        <div class="main-nav">
+
+          <div class="logo-name-link">
+            <a href="index.html" class="logo-name"><img class="personal-logo" src="img/personal-logo.svg" alt="Lacie Nguyen's logo"/><strong>LACIE</strong> NGUYEN</a>
+          </div>
+
+          <div class="page-link">
+            <input class="menu-btn" aria-label="hamburger-menu" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" aria-label="hamburger-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="index.html#featured-work" class="underline-animation">Work</a></li>
+              <li><a href="about.html" class="underline-animation">About</a></li>
+              <li><a href="contact.html" class="underline-animation">Contact</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </header>
+    </section>
+
+    <section class="hero">
+      <div class="hero-grid">
+
+        <div class="introduction" data-aos="fade-up" data-aos-duration="850">
+          <h1 class="intro-line-one">Hi! I'm Lacie Nguyen</h1>
+          <h1 class="intro-line-two">I <a href="plagiarism-poster-campaign.html">design</a>, <a href="urbanee.html">code</a> and <a href="https://www.instagram.com/wakame.rin_/" target="_blank">illustrate</a>.</h1>
+          <p>I’m a graphic and web designer with a passion for applying human-centred design and visual graphics into my works. I have a huge love for digital art, so I like incorporating art and graphics into my design.</p>
+
+          <div class="slide-button-container">
+            <button
+              class="view-about"
+              onclick="window.location.href='about.html'"
+            >
+              <!-- <a href="asset/lacienguyen-resume.pdf" target="_blank"> -->
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">More about me</span>
+              <!-- </a> -->
+            </button>
+          </div>
+          
+        </div>
+
+        <div class="person-illustration" data-aos="fade-down" data-aos-duration="850">
+          <img class="background" src="img/green-icons-01.svg" alt="Green icons of Lacie's illustration"/>
+          <img class="background" src="img/gray-bg-01.svg" alt="Gray background of Lacie's illustration"/>
+          <img class="background" src="img/light-green-bg-01.svg" alt="Green background of Lacie's illustration"/>
+          <img class="background" src="img/dots-bg-01.svg" alt="Decorative dots of Lacie's illustration"/>
+          <img class="background" src="img/lacie-with-computer-01.svg" alt="Illustration of Lacie"/>
+        </div>
+
+      </div>
+
+      <div class="scroll-animation" data-aos="fade-down" data-aos-duration="1500">
+        <p class="scroll-text">Scroll down to explore my work</p>
+
+        <div class="mouse_scroll">
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+          <div>
+            <span class="m_scroll_arrows unu"></span>
+            <span class="m_scroll_arrows doi"></span>
+            <span class="m_scroll_arrows trei"></span>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="featured-work">
+      <h2 class="project-type-heading" data-aos="fade-up" data-aos-duration="400">Featured Works</h2>
+
+      <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up" data-aos-duration="600">
+          <div class="image">
+            <a href="plagiarism-poster-campaign.html"><img src="img/plagiarism-poster-campaign-cover-1.png" alt="Cover of Plagiarism poster campaign"></a>
+          </div>
+          <div class="title"><h3>Plagiarism Poster Campaign</h3></div>
+          <div class="description">
+            <p>Graphic Design / Visual Design</p>
+          </div>
+          <div class="view-project">
+            <a href="plagiarism-poster-campaign.html" class="view-button animated-arrow">View Project</a>
+          </div>
+        </div>
+
+          <div class="project-card" data-aos="fade-up" data-aos-duration="600">
+            <div class="image">
+              <a href="urbanee.html"><img src="img/urbanee-cover-1.png" alt="Cover of urbanee project"></a>
+            </div>
+            <div class="title"><h3>Urbanee</h3></div>
+            <div class="description">
+              <p>Front-End Development / Responsive Website</p>
+            </div>
+            <div class="view-project">
+              <a href="urbanee.html" class="view-button animated-arrow">View Project</a>
+            </div>
+          </div>
+
+      </div>
+      
+    </section>
+
+    <section id="footer-wrapper">
+      <footer>
+        <div class="connection">
+          <div class="footer-text">
+            <h1>Let's Connect</h1>
+            <p>Get in touch for opportunities or just to say hi!</p>
+          </div>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/lacie-nguyen-b9a3aa221/" target="_blank" aria-label="link-to-linkedin" class="linkedin-icon underline-animation"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:kln3@sfu.ca" target="_blank" aria-label="link-to-email" class="email-icon underline-animation"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.behance.net/lacienguyen/moodboards" aria-label="link-to-behance" target="_blank" class="behance-icon underline-animation"><i class="fa-brands fa-behance-square"></i></a>
+          </div>
+        </div>
+
+        <div class="resources">
+          <div class="copyright">
+            <p>Copyright © Lacie Nguyen | 2022</p>
+          </div>
+          <div class="resource-links">
+            <a href="citation.html" class="citation underline-animation">Citations</a>
+            <a target="_blank" href="https://github.sfu.ca/iat339/p3_portfolio_lacie" class="github underline-animation">GitHub</a>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
+</html>

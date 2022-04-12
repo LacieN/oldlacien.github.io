@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg" href="img/personal-logo.svg" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/nav-bar.css" />
+    <link rel="stylesheet" href="css/project-general.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/bf386900a0.js" crossorigin="anonymous"></script>
+    
+    <title>Plagiarism Posters - Lacie Nguyen</title>
+    
+  </head>
+
+  <body>
+    
+    <section class="menu-wrapper">
+      <header class="header">
+        <div class="main-nav">
+
+          <div class="logo-name-link">
+            <a href="index.html" class="logo-name"><img class="personal-logo" src="img/personal-logo.svg" alt="Lacie Nguyen's logo"/><strong>LACIE</strong> NGUYEN</a>
+          </div>
+
+          <div class="page-link">
+            <input class="menu-btn" aria-label="hamburger-menu" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" aria-label="hamburger-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="index.html#featured-work" class="underline-animation">Work</a></li>
+              <li><a href="about.html" class="underline-animation">About</a></li>
+              <li><a href="contact.html" class="underline-animation">Contact</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </header>
+    </section>
+
+    <section class="project-content">
+      <div class="content-before-cover">
+        <h1 class="project-name">Plagiarism Poster Campaign</h1>
+
+        <div class="project-description">
+            <div class="project-types"><p class="project-types">Graphic Design / Visual Design / School Project</p></div>
+            <div class="short-description"><p>A poster campaign that informs students the basic principles of APA citation cite and how to cite correctly.</p></div>
+        </div>
+      </div>
+
+      <div class="project-cover-img"><img class="myImages" src="img/plagiarism-poster-campaign-cover-2.png" alt="Cover of plagiarism poster project">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01" alt="Modal for images" src="data:,">
+        </div>
+      </div>
+
+      <div class="content-after-cover">
+        <div class="brief-project-info">
+
+          <div class="role">
+            <h3>My Role</h3>
+            <ul>
+              <li>Graphic Designer</li>
+              <li>Visual Designer</li>
+              <li>Ideation </li>
+            </ul>
+          </div>
+
+          <div class="team">
+            <h3>Team</h3>
+            <ul>
+              <li>Jason Tran</li>
+              <li>Morgan Emsley</li>
+              <li>Michelle Cho</li>
+              <li>Denisa Marinescu</li>
+            </ul>
+          </div>
+
+          <div class="duration">
+            <h3>Duration</h3>
+            <ul>
+              <li>4 weeks - Spring 2021</li>
+            </ul>
+          </div>
+          
+        </div>
+        
+        <div class="carousel-container">
+          <div class="mySlides">
+            <img class="myImages" src="img/Group4_RUOF_Posters_Page_1.jpg" alt="In-text citation poster" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <img class="myImages" src="img/Group4_RUOF_Posters_Page_2.jpg" alt="Paraphrasing poster" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <img class="myImages" src="img/Group4_RUOF_Posters_Page_3.jpg" alt="Block quotation poster" style="width:100%">
+          </div>
+            
+          <div class="mySlides">
+            <img class="myImages" src="img/Group4_RUOF_Posters_Page_4.jpg" alt="Reference page poster" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <img class="myImages" src="img/Group4_RUOF_Posters_Page_5.jpg" alt="APA citation checklist poster" style="width:100%">
+          </div>
+            
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="img/poster-page-1.png" style="width:100%" onclick="currentSlide(1)" alt="In-text citation poster preview">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/poster-page-2.png" style="width:100%" onclick="currentSlide(2)" alt="Paraphrasing poster preview">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/poster-page-3.png" style="width:100%" onclick="currentSlide(3)" alt="Block quotation poster preview">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/poster-page-4.png" style="width:100%" onclick="currentSlide(4)" alt="Reference page poster preview">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/poster-page-5.png" style="width:100%" onclick="currentSlide(5)" alt="APA citation checklist poster preview">
+            </div>    
+          </div>
+        </div>
+
+        <div class="project-details">
+          <div class="project-section">
+            <h2>Why Poster Campaign?</h2>
+            <p>This project was from a lower-devision writing course. Plagiarism occasionally occurs at universities although some students do not intend to plagiarize. In creating a set of informative posters, we aimed for providing students at SFU (Simon Fraser University) with a guide to avoiding plagiarism.</p>
+          </div>
+
+          <div class="project-section part-highlight">
+            <h2>Key Findings</h2>
+            <p>To get insights into how students think they would fall into plagiarism, we conducted a survey and got 12 answers from SFU students. <span>Most students believe they have a high potential to plagiarize in their first year due to their inexperience with citation styles like APA or MLA.</span>
+            </p>
+            <p class="bold-emphasize">With APA 6 being one of the most used referencing formats at SFU, we decided that our poster campaign would focus on the most used aspects of APA 6: paper formatting, paraphrasing, direct quotations, block quotations, and the references page.</p>
+          </div>
+
+          <div class="project-section part-bold">
+            <h2>Getting into Design </h2>
+            <p>Because our main audiences were SFU students, <span>we wanted to use colours that are similar to SFU’s colour palette for brand consistency</span>. To create an eye-catching design, we used contrast colours: dark red as background colour and white for our header's colour.</p>
+
+            <div class="color-grid">
+              <div class="color-item primary">
+                <div class="color-item-info red">
+                  <p>Red</p>
+                  <p>#D12940</p>
+                  <p>RGB: 209, 41, 64</p>
+                </div>
+              </div>
+
+              <div class="color-item primary">
+                <div class="color-item-info black">
+                  <p>Black</p>
+                  <p>#272526</p>
+                  <p>RGB: 39, 37, 38</p>
+                </div>
+              </div>
+
+              <div class="color-item primary">
+                <div class="color-item-info white">
+                  <p>White</p>
+                  <p>#FFFFFF</p>
+                  <p>RGB: 255, 255, 255</p>
+                </div>
+              </div>
+            </div>
+
+            <p>We wanted a san-serif font as we aimed for a simple and minimalist design. <span>Nunito typeface was chosen for the headers due to its round strokes, which bring a soft touch to the poster.</span> Therefore, the design won’t be a strict guide but a more friendly and engaging guide. <span>For the body text, we used Roboto for readability because of its uniform and thin stroke widths.</span></p>
+
+            <img class="myImages" src="img/poster-typeface.png" alt="Typefaces of poster campaign"/>
+
+            <p>Our goal is to turn the posters into quick guides to APA 6, so we used graphics as informative examples, arrows to highlight key details, and QR codes that lead to resources with in-depth information for each topic. These decisions ensure our posters would remain effective when placed together or displayed alone.</p>
+          </div>
+
+          <div class="project-section part-bold">
+            <h2>Ideation, Sketching and Iterations</h2>
+            <p>As one of two artists in the group, I was responsible for the sketches of Block Quotation, Paraphrasing and Reference Page posters.  I used Procreate to sketch because I love how digital sketch let me see if the combination of colors works or not. For the graphics, I decided to use every object like a laptop or an actual reference paper to make the design more engaging with the audience.</p>
+            <div class="poster-sketch-grid">
+              <div class="poster-sketch"><img class="myImages" src="img/poster-draft-1.png" alt="Sketch for paraphrasing poster"></div>
+              <div class="poster-sketch"><img class="myImages" src="img/poster-draft-2.png" alt="Sketch for paraphrasing poster"></div>
+              <div class="poster-sketch"><img class="myImages" src="img/poster-draft-3.png" alt="Sketch for block quotation poster"></div>
+              <div class="poster-sketch"><img class="myImages" src="img/poster-draft-4.png" alt="Sketch for reference page poster"></div>
+            </div>
+            <p>We created the mock-ups and iterations in Photoshop and continued to improve the first mock-ups by giving feedback. During this process, <span>we wanted a cohesive design by keeping the same format for all posters, so we move all the QR codes to the right side.</span></p>
+            
+            <div class="poster-iteration">
+              <div class="poster-mocku-up">
+                <p>FIRST MOCK-UP</p>
+                <img class="myImages" src="img/poster-first-mock-up.png" alt="First mock-up of checklist poster">
+              </div>
+
+              <div class="poster-final-result">
+                <p>ITERATION AFTER FEEDBACK</p>
+                <img class="myImages" src="img/Group4_RUOF_Posters_Page_5.jpg" alt="Iteration of checklist poster">
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <h2>Reflection</h2>
+            <p>Through this project, I learned how to efficiently contribute my ideas and feedback to a group by showing how. I also enjoyed working with my teammates as I got to see how different ideas and perspectives brought the designs to a final decision. </p>
+          </div>
+          
+        </div>
+      </div>  
+    </section>
+
+    <section id="footer-wrapper">
+      <footer>
+        <div class="connection">
+          <div class="footer-text">
+            <h1>Let's Connect</h1>
+            <p>Get in touch for opportunities or just to say hi!</p>
+          </div>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/lacie-nguyen-b9a3aa221/" target="_blank" aria-label="link-to-linkedin" class="linkedin-icon underline-animation"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:kln3@sfu.ca" target="_blank" aria-label="link-to-email" class="email-icon underline-animation"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.behance.net/lacienguyen/moodboards" aria-label="link-to-behance" target="_blank" class="behance-icon underline-animation"><i class="fa-brands fa-behance-square"></i></a>
+          </div>
+        </div>
+
+        <div class="resources">
+          <div class="copyright">
+            <p>Copyright © Lacie Nguyen | 2022</p>
+          </div>
+          <div class="resource-links">
+            <a href="citation.html" class="citation underline-animation">Citations</a>
+            <a target="_blank" href="https://github.sfu.ca/iat339/p3_portfolio_lacie" class="github underline-animation">GitHub</a>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="js/modal-img.js"></script>
+    <script src="js/carousel.js"></script>
+ 
+  </body>
+</html>
