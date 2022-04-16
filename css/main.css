@@ -20,19 +20,34 @@ b, strong {
 
 h1 {
   font-size: 3rem;
+  color: #44494b;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
+  color: #44494b;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
+  color: #44494b;
 }
 
 p {
-  font-size: 1.10rem;
+  font-size: 1.05rem;
   line-height: 1.75rem;
+  color: #44494b;
+}
+
+.coming-soon {
+  text-align: center;
+  padding-top: 6rem;
+  color: #44494b;
+}
+
+footer h1,
+footer p {
+  color: white;
 }
 
 /* Reference for underline animation: https://www.30secondsofcode.org/css/s/hover-underline-animation */
@@ -40,7 +55,7 @@ p {
 .underline-animation {
   display: inline-block;
   position: relative;
-  color: black;
+  color: #44494b;
 }
 
 .underline-animation:after {
@@ -51,7 +66,7 @@ p {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: black;
+  background-color: #1A2429;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
