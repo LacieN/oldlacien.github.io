@@ -216,6 +216,10 @@ footer a {
   padding-bottom: 0.25rem;
 }
 
+footer .copyright p{
+  font-size: 0.9rem;
+}
+
 .citation {
   margin-right: 2.5rem;
 }
