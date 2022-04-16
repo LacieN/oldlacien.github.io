@@ -22,13 +22,13 @@
 
 .header li a {
   display: block;
-  color: black;
+  color: #1A2429;
   padding: 20px 20px;
   text-decoration: none;
 }
 
 .header .logo-name {
-  color: black;
+  color: #1A2429;
   display: block;
   float: left;
   font-size: 1.5em;
@@ -57,7 +57,7 @@
   user-select: none;
 }
 .header .menu-icon .navicon {
-  background: black;
+  background: #1A2429;
   display: block;
   height: 3px;
   position: relative;
@@ -66,7 +66,7 @@
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: black;
+  background: #1A2429;
   content: '';
   display: block;
   height: 100%;
