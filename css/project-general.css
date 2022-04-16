@@ -9,8 +9,9 @@
 }
 
 .project-description .project-types p {
-    margin-bottom: 2rem;
-    margin-top: 0.65rem;
+    margin-bottom: 1rem;
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
 }
 
 .project-cover-img img {
@@ -18,8 +19,12 @@
     left: 0;
     max-width: 100%;
     max-height: 100%;
-    /* margin: 2rem 0; */
+    /* margin: 1.5rem 0; */
     /* background-size: cover; */
+}
+
+.project-cover-img {
+  margin: 1.5rem 0;
 }
 
 .brief-project-info {
@@ -32,7 +37,7 @@
 .brief-project-info ul{
     list-style: none;
     padding: 0;
-    font-size: 1.10rem;
+    font-size: 1.05rem;
     line-height: 1.5rem;
     margin-top: 0.5rem;
 }
@@ -71,7 +76,7 @@
     width: auto;
     padding: 10px;
     margin-top: -50px;
-    color: black;
+    color: #1A2429;
     font-weight: bold;
     font-size: 30px;
     user-select: none;
@@ -91,7 +96,7 @@
   .next:hover,
   .prev:focus,
   .next:focus {
-    background-color: black;
+    background-color: #1A2429;
     color: white;
   }
   
@@ -198,6 +203,11 @@ pre {
   color: white;
 }
 
+.red p,
+.black p {
+  color: white;
+}
+
 .white {
   background-color: #FFFFFF;
   /* border-color: black; */
@@ -243,9 +253,9 @@ pre {
 
 .website-preview a:hover,
 .website-preview a:focus {
-  color: black;
+  color: #1A2429;
   background-color: #e3e0d7;
-  border: 1px solid black;
+  border: 1px solid #1A2429;
 }
 
 .typeface-grid {
