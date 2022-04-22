@@ -266,6 +266,16 @@
   opacity: 0.6;
   transform: scale(1.05);
 }
+
+.project-card .upcoming-image img:hover,
+.project-card .upcoming-image img:focus {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.project-card .coming-text {
+  margin-left: 2rem;
+}
   
 .project-card .title h3 {
   margin-left: 2rem;
@@ -389,6 +399,10 @@ a.view-button {
   }
 
   .project-card .title h3 {
+    margin-left: 1rem;
+  }
+
+  .project-card .coming-text {
     margin-left: 1rem;
   }
 
